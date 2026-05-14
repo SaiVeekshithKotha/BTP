@@ -12,3 +12,6 @@ This repository contains various methodologies developed for extracting tabular 
 
 * **`method_3/` : Non-Semantic Table Extraction (VIPS + MDR)**
   An advanced approach for extracting tables from modern webpages that use `<div>`, CSS Grid, Flexbox, or component-based frameworks (like React, Vue, Angular) where standard semantic tags are entirely absent. This method utilizes Vision-based Page Segmentation (VIPS) and Mining Data Records (MDR) to identify tables based purely on visual layout, bounding boxes, and computed CSS.
+
+* **`LLM_dataset_analysis/` : LLM Pre-Training Dataset Research**
+  A comprehensive but brief high level technical analysis of how modern datasets are engineered to shape model intelligence. This research covers scaling evolution (Chinchilla vs. Overtraining), compositional anatomy (Code/Math as reasoning drivers), filtering yields, and the pivot toward synthetic data. It includes verified case studies on frontier models like Llama 4 Scout, DeepSeek-V3, and Phi-series.

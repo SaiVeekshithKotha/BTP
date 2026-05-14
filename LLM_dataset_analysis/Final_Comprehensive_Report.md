@@ -1,8 +1,11 @@
 # Comprehensive Analysis of Pre-Training Datasets for Large Language Models
-**Final BTP Report**
 
 ## Abstract
-Over the last decade, dataset curation for Large Language Models (LLMs) has fundamentally shifted from passively "scraping the web" to actively and mathematically engineering the perfect token. An LLM's intelligence is not just about its parameter count; it is dictated by the equation: $\text{Performance} = f(\text{Scale} \times \text{Composition} \times \text{Filtering Yield})$. This report synthesizes the six primary directions of dataset evolution—scaling, compositional anatomy, filtering yield, multilingual representation, synthetic data generation, and systemic constraints—and applies these principles to modern frontier model case studies.
+Over the last decade, dataset curation for Large Language Models (LLMs) has fundamentally shifted from passively "scraping the web" to actively and mathematically engineering the perfect token.
+ <!-- An LLM's intelligence is not just about its parameter count; it is almost always dictated by the equation: $\text{Performance} = f(\text{Scale} \times \text{Composition} \times \text{Filtering Yield})$.  -->
+ This report synthesizes the six primary directions of dataset evolution—scaling, compositional anatomy, filtering yield, multilingual representation, synthetic data generation, and systemic constraints—and applies these principles to modern frontier model case studies.
+
+ This report is very high level brief analysis of data used for LLM (Large Language Models).
 
 ---
 
@@ -43,7 +46,7 @@ While dataset scaling determines the capacity of a model, dataset composition de
 ### The Reasoning Engines: Code and Mathematics
 * **Structural Deduction via Code:** Injecting structured programming paradigms forces attention heads to track strict, long-range dependencies. 
 * **Performance Multipliers:** Heavy injection of refined code (e.g., Stack-Edu) has boosted downstream coding benchmark performance by as much as +17 points on HumanEval.
-* **Interaction Effect:** Intelligence emerges from the interaction between domains. Code enforces structure, Math enforces logic, and Web provides breadth. An "optimal" reasoning mixture in 2026 typically consists of approximately 50% general knowledge, 25% mathematics, 17% code, and 8% multilingual text.
+* **Interaction Effect:** Intelligence emerges from the interaction between domains. Code enforces structure, Math enforces logic, and Web provides breadth. A reasoning mixture used in 2026 typically consists of approximately 50% general knowledge, 25% mathematics, 17% code, and 8% multilingual text.
 
 ---
 

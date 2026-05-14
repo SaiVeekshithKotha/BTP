@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test VIPS - Div-based Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* Div-based table structure */
+        .table {
+            border: 1px solid #ddd;
+            margin-bottom: 30px;
+        }
+
+        .table-header {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+            display: flex;
+            padding: 12px;
+        }
+
+        .table-row {
+            display: flex;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 12px;
+        }
+
+        .table-row:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .table-row:hover {
+            background-color: #f0f0f0;
+        }
+
+        .cell {
+            flex: 1;
+            padding: 0 10px;
+        }
+
+        /* Another table with different styling */
+        .grid-table {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background-color: #ddd;
+            border: 1px solid #ddd;
+            margin-top: 30px;
+        }
+
+        .grid-header {
+            background-color: #2196F3;
+            color: white;
+            padding: 12px;
+            font-weight: bold;
+        }
+
+        .grid-cell {
+            background-color: white;
+            padding: 12px;
+        }
+
+        /* Non-table content for testing */
+        .sidebar {
+            background-color: #e0e0e0;
+            padding: 15px;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+
+        .sidebar h3 {
+            margin-top: 0;
+        }
+
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .sidebar li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ccc;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sample Page with Div-based Tables</h1>
+
+        <p>This page contains tables built with divs instead of table tags, to test the VIPS algorithm.</p>
+
+        <!-- Table 1: Flexbox-based table -->
+        <div class="table">
+            <div class="table-header">
+                <div class="cell">Name</div>
+                <div class="cell">Age</div>
+                <div class="cell">City</div>
+            </div>
+            <div class="table-row">
+                <div class="cell">Alice Johnson</div>
+                <div class="cell">28</div>
+                <div class="cell">New York</div>
+            </div>
+            <div class="table-row">
+                <div class="cell">Bob Smith</div>
+                <div class="cell">34</div>
+                <div class="cell">Los Angeles</div>
+            </div>
+            <div class="table-row">
+                <div class="cell">Charlie Brown</div>
+                <div class="cell">25</div>
+                <div class="cell">Chicago</div>
+            </div>
+            <div class="table-row">
+                <div class="cell">Diana Prince</div>
+                <div class="cell">31</div>
+                <div class="cell">Houston</div>
+            </div>
+            <div class="table-row">
+                <div class="cell">Eve Davis</div>
+                <div class="cell">29</div>
+                <div class="cell">Phoenix</div>
+            </div>
+        </div>
+
+        <!-- Table 2: CSS Grid-based table -->
+        <h2>Product Inventory</h2>
+        <div class="grid-table">
+            <div class="grid-header">Product</div>
+            <div class="grid-header">Quantity</div>
+            <div class="grid-header">Price</div>
+
+            <div class="grid-cell">Laptop</div>
+            <div class="grid-cell">15</div>
+            <div class="grid-cell">$999</div>
+
+            <div class="grid-cell">Mouse</div>
+            <div class="grid-cell">50</div>
+            <div class="grid-cell">$25</div>
+
+            <div class="grid-cell">Keyboard</div>
+            <div class="grid-cell">30</div>
+            <div class="grid-cell">$75</div>
+
+            <div class="grid-cell">Monitor</div>
+            <div class="grid-cell">20</div>
+            <div class="grid-cell">$350</div>
+        </div>
+
+        <!-- Non-table content (should not be detected as table) -->
+        <div class="sidebar">
+            <h3>Navigation</h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Products</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>

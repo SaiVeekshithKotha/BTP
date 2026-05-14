@@ -1,0 +1,135 @@
+Project name,Authors
+Enhancing minBERT for Multi-Task NLP: Architectural and Training Innovations,Xinxie Wu
+Enhancing multi-task fine-tuning on BERT-based model,Xiaochen Xiong
+Task-Specific Parameter Efficient Fine-Tuning for Improving Multitask BERT,Brian K. Ryu
+Adapt BERT on Multiple Downstream Tasks,Ran Li
+Post-Op BERT: Improving Gradient-Surgery on Imbalanced Data,Giancarlo Ricci
+Improving Semantic Meaning of BERT Sentence Embeddings,Timothy Yao
+Improving the Performance of BERT Using Contrastive Learning and Meta-Learning,"Akash Gupta, Justin Shen, Peter Westbrook"
+Fine-Tuning BERT for Multi-Task Prediction,Uma Dayal
+Robust Adaptation of BERT using SMART,Ozgur Cetin
+Improving minBERT with Conditional Layer Normalization,Matan Abrams
+Multi-task Learning with minBERT,Praneet Bhoj
+optiBERT: Fine-Tuning BERT for Optimal Performance,Jirah Taylor
+Multitask Finetuning for MinBERT,Ethan Boneh
+ConCATenation Curiosity: Evaluating Multitask Performance of minBERT,"Prithvi Krishnarao, Emily Redmond"
+Parameter Efficient Fine-Tuning for Multi-Task BERT,"Zhen Wu, Genghan Zhang, Alexa Hu"
+Multi-task BERT Fine-Tuning with Gradient Tricks,Henry Ang
+PowerBERT: Improving BERT with a Power Set Ensemble of Fine-Tuned Single and Multitask Models,"Eric Lee, Kevin Song, Jeanette Han"
+PALs of MTL: Investigating Task Scheduling Algorithms in the Presence of PALs,"Kris Jeong, Pauline Arnoud"
+BERT with LORA: Low-rank Adaptation Of Large Language Models,Tolu Oyeniyi
+From BERT to Brilliance: An Analytical Approach to Advancing Multitask Learning for NLP,"Akea Pavel, Adrian Mendoza-Perez"
+Comparing BERT Fine-Tuning Methods,"Adrian Stoll, Jennifer Ho, Daniel Tyshler"
+"Dynamic Weight Adjustment for Multitask BERT: An Approach to Sentiment, Paraphrase, and Similarity Tasks",Marco Pizarro
+"Multitask training BERT for Sentiment Analysis, Semantic Textual Similarity, and Paraphrase Detection",Feiyang Kuang
+BERT Multitask Methods for Low-Parameter Fine-Tuning,Elton Manchester
+miniBert Unleashed,"John Cao, David Kwentua"
+Implementing and Enhancing minBERT for Optimized Performance on Multiple Downstream Classification Tasks,Priti Rangnekar
+Multi-BERT: Investigating Methods for BERT Multitask Learning,Zach Benton
+"Expanding minBERTâs Scope: Integrating SimCSE, Ensemble Learning, and PANDA","Yasmina Abukhadra, Samantha Liu, Hannah Norman"
+Parameter Efficient BERT Fine-tuning,Ang Li
+Hybrid BERT: Sharing Layers for Multitask Performance with Fewer Parameters,"Jake North, Jared Weissberg"
+Rhapsody on a Theme of Gradient Surgery: Variations to Improve minBERT for Multi-Task Learning,Christian Femrite
+minBERT Multi-Extended: Fine Tuning minBERT for Downstream Tasks,"Jayna Huang, Isabella Lee, Sophie Zhang"
+BEES: Bi-Encoder Ensembles with Simple Contrastive Learning and Smoothness Induced Adversarial Regularization,Nithish Kaviyan Dhayananda Ganesh
+minBERT and Downstream Tasks,"Bay Foley-Cox, David Wendt"
+Too SMART for your own good: Multitask Fine-Tuning pre-trained minBERT through Regularized Optimization and hyper-parameter optimization,"Proud Mpala, Wayne Chinganga"
+MathBERT: Increasing mathematical reasoning through Domain-Specific Fine-tuning and Optimization,"John Founds, Carlos Santana"
+"Implementing and Fine-Tuning BERT for Sentiment Classification, Paraphrase Detection and Semantic Similarity Analysis","Anqi Zhu, Antonio Torres Skillicorn, Kyra Sophie Kraft"
+BERT and Multitask Learning,"Sureen Heer, Collin Jung, Adrian Molofsky"
+A Better Multitask BERT: Improving on Fine-Tuning,"Andrea Hurtado, Sarah Teaw"
+Optimizing Multitask BERT: A Study of Sampling Methods and Advanced Training Techniques,"Andrew Wu, Wesley Larlarb"
+YourBERT: Tailoring BERT for Precision,"Paolo Tayag, Jack Walter"
+Utilizing Enhanced Deep Contextualized Word Embeddings for Downstream Tasks,"Renaldo Venegas, Ethan Yuen"
+"BERT on Multitask Training: Bimodality, Ensemble, Round-robin, Text-encoding, and More","Jiaxiang Ma, Yuchen Deng"
+Untitled,Betty Wu
+Cooking A Multitude of Optimizations for BERT Multi-Task Mastery,"Michael Cho, Michael Peter Hong, Michael Marcotte"
+Multi-Dimensional BERT: Bridging Versatility and Specialization in Multi-Task Learning,"Emma Casey, Luke Moberly"
+Fine-tuning BERT for Multi-task Learning,Yutai Luo
+Multitask and Task-specific Optimizations for minBERT,"James Chen, Krish Parikh"
+Utilizing minBERT for Multiple Sentence-level Tasks,Qianhui Zheng
+(Multi-gate) Mixture of ExBerts,O Sub Kwon
+minBERT and Downstream Tasks,Zhihua Cai
+Fine BERT,"Xavier Millan, Yuvraj Baheti, Andrew Nguyen"
+UnBERTlievable: How Extensions to BERT Perform on Downstream NLP Tasks,"Sophie Andrews, Naomi Boneh"
+PALs and MNRL: Adaptations for Multi-Task BERT,Lei Yin
+Multitask BERT Fine-Tuning and Generative Adversarial Learning for Auxiliary Classification,"Christopher Sun, Abishek Satish"
+SMART Fine-tuning,Zikui Wang
+SLOTH: Semantic Learning Optimization and Tuning Heuristics for Enhanced NLP with minBERT,"Phillip Miao, Cici Hou"
+Multitask Learning with BERT,Sanjaye Elayattu
+An Exploration of Multi-Task Learning over minBERT,"Chunming Peng, Max Yuan, Annie Wang"
+minBert with Cosine Similarity and PCGrad,"Xiyuan Wu, Alan Zhang"
+BERT: Battling Overfitting with Multitask Learning and Ensembling,"Javier Nieto, Annabelle Jayadinata"
+Strategies for Building Semantic Classification Dataset with LLM and Active Learning,Jerry Chan
+BERT Goes to School: Improving BERT Embeddings Through Curriculum-Based Contrastive Learning and Synonym-Based Data Augmentation,"Arnav Gangal, Martin Pollack, Russell Tran"
+Bagging the Singular Value Decomposition - A Joint Implementation of LoRA and Bootstrap Aggregating as a Fine-tuning Regime,"Andri Vidarsson, Jacob Thornton, RaphaÃ«lle Ramanantsoa"
+Research on the Application of Deep Learning-based BERT Model with Additional Pretraining and Multitask Fine-Tuning,"Muran Yu, Ricky Liu"
+My PAL BERT: Using Projected Attention Layers and Additional Fine-Tuning Strategies to Improve BERTâs Performance on Downstream Tasks,"Colin Michael Sullivan, Abhishek Kumar"
+Enhancing Multi-Task Learning with BERT,Josiah Griggs
+minBERT-based Multitask Model using PAL-LoRA,Xian Wu
+Enhacing minBERT by Leveraging CosineEmbeddingLoss Fine-Tuning and Multi-Task Learning with Gradient Surgery,"Peter De La Cruz, Mohamed Musa, Yahaya Ndutu"
+Orthogonal Projection Loss for Multi-Headed Attention,Kyle McGrath
+Enhancing Dev Accuracy with DoRA,"Hayden Kim, Nilson Rodriguez Cadenas"
+SMARTer Multi-task Fine-tuning of BERT,"Disha Ghandwani, Aditya Ghosh, Rahul Kanekar"
+Tuning Up BERT: A Symphony of Strategies for Downstream Tasks,Nick Soulounias
+AllBERT: Mastering Multiple-Tasks Efficiently,"Thierry Rietsch, Joe Serrano"
+"Beyond BERT: a Multi-Tasking Journey Through Sampling, Loss Functions, Parameter-Efficient Methods, Ensembling, and More","Alycia Lee, Amanda Li"
+Enhancing BERTâs Performance on Downstream Tasks via Multitask Fine-Tuning and Ensembling,Lianfa Li
+minBert and Downstream Tasks,Zhimin Tang
+Multitask Contrastive Learning for Sentence Representation,Abdulaziz Alharbi
+BERTâs Got Talent: Advanced Fine-Tuning Strategies for Better BERT Generalization,"Grace Luo, Danny Lin"
+Separating Meaning From Weights in Sentence Embeddings,Haibib Kerim
+A multi-objective approach to improving accuracy and efficiency in multitask BERT,"Arpit Singh, Amitai Porat, Lin Ma"
+Supercharging MinBERT with Contrastive Learning & Self-Distillation,CÃ©cile LogÃ© Baccari
+Parameter-Efficient Adaptation of BERT using LoRA and MoE,"Li-Heng Lin, Yi-Ting Wu"
+Exploring Multi-Task Learning with Unbalanced Datasets and Gradient Surgery,Julien Darve
+Multitask minBERT with Parameter-efficient Fine-tuning,Zhuoqi (Charlie) Zhang
+Enhanced BERT Adaptation: Ensembling LoRA Models for Improved Fine-Tuning,Denis Tolkunov
+Parameter-Efficient Learning Strategies for Multi-Task Applications of BERT,"Irmak Sivgin, Mahmut Yurt"
+Efficient multi-task learning strategies for single BERT,"Jiamin Sun, Xingjian Zhang"
+Exploring Transfer Learning and Multi-Task Learning: An Experimental Analysis of Diverse Architectures,Sayali Sonawane
+Improving Multi-Task BERT Fine-Tuning: Effective Methods and Practices,"Amy Wang, Haopeng Xue, Xinling Li"
+minBERT and Downstream Tasks,"Ziyang Ding, Daniel Zou"
+BERT Multitask Learning in a Semi-Supervised Learning Setup,Danhua Yan
+"BERTille, a multitask BERT model made in France","Alexis Bonnafont, Malo Sommers, Salma Zainana"
+Enhancing BERT:The Effects of Additional Pretraining Using Downstream Task Relevant Datasets,Chase Nwamu
+Strategies for Optimization of minBERT for Multi-Task Learning,"Ankur Jai Sood, Cameron Heskett, Shinwoo Lee"
+How to make your BERT model an xBERT in multitask learning?,Xingshuo Xiao
+ComBERT: Improving Multitask-BERT with Combinations of Scale-invariant Optimization and Parameter-efficient Fine-tuning,"Harper Hua, Ruiquan Gao
+      , Xinyi(Jojo) Zhao"
+Fine-tune miniBERT for multi-task learning,Geo Zhang
+Hybrid Multitask Learning with BERT,Anna Mattinger
+Improving minBERT on Downstream Tasks Through Combinatorial Extensions,"Yichen Jiang, Ria Calcagno, Senyang Jiang"
+StudentBERT: Multitask Training with Teacher Models,"Shang Jiang, Shengtong Zhang"
+"Balancing Act: Evaluating the Interactions Between Multi-Task Learning, Cosine Similarity, and Adversarial Regularization","Leo Glikbarg, Dhafer Faishal"
+"Build, Extend, Repeat, Triumph: Extensions to a BERT Multitask Model","Oliver Lee, Ethan Hsu, Manat Kaur"
+Fasting NLP:Slimming Down Models with QLoRA,Ricardo Carrillo
+BEST-FiT: Balancing Effective Strategies for Tri-task Fine Tuning,"Elijah Kim, Rohan Sanda"
+Extending minBERT in a Multi-Task Setting,"Jean-Philippe Lemay, Veljko Skarich, Joe Wang"
+Multi-task Learning for BERT,"Xinyan He, Wei Zhao"
+Enhancing BERT with Adapter Fusion: A Strategy for Multi-Task Knowledge Transfer,Hao Xu
+Combining Contrastive Learning with Layer Utility Analysis and Experimental Multi-Task Finetuning to Improve mini-BERT Performance,"Ellie Vela, Vionna Atef, Ethan Bogle"
+minBERT,"Bryant Mendez Melchor, Gustavo Martinez"
+minBERT and Downstream Tasks,Jiajing Luo
+Parameter Efficient Fine Tuning in Multi-Task Learning with minBERT,Havin E. Hosgur
+BERTolomeu: Exploring Methods to Improve Downstream Task Performance with BERT,"Flora Yuan, Jack Zhang"
+Multi-Task Learning for Language Model Fine-Tuning,Anonto Zaman
+PradrewBert: The Efficient One,"Pradyumna Saligram, Andrew Lanpouthakoun"
+Smarter BERT with Better Understanding and Generalization,Yujie Gao
+"Multitask BERT for Sentiment Analysis, Paraphrase Detection, and Semantic Textual Similarity",Brandon Ring
+Triple Threat: Exploring Multi-task Training Strategies for BERT,"Sally Zhu, Akaash Kolluri"
+NeuSemble: Neural Ensemble of Multitask Learning with minBERT,Youzhi (Yousef) Liang
+"Bidirectional Encoder Representations from Transformers (BERT) with Mixture of Experts for Sentiment Analysis, Paraphrase Detection, and Semantic Textual Similarity",David D. Wu
+Fine-tuning BERT for Multiple Downstream Tasks,Jianhao Cai
+Parts of MinBERT,"Monica Hicks, Megan Liu"
+Improving the performance of miniBERT and BERTaaR (BERT as a Recruiter),"Prabhjot Singh Rai, Jared Isobe"
+Applying Multitask Fine-Tuning to Sentence-BERT,Alvin Ayuyo
+Investigation of BERT Fine-tuning Strategies,Sheena Lai
+BERT-Based Multi-Task Learning for Natural Language Understanding,Ray Ortigas
+Fine-tuning and Gender Fairness of BERT Models,Kevin Rizk
+Improving minBert using Multi-Task Fine-Tuning with cosine-similarity,Eun Sun Song
+Exploring Efficient Learning of Small BERT Networks with LoRA and DoRA,"Aditri Bhagirath, Moritz Bolling, Daniel Frees"
+Downsizing minBERT without hurting performance,Nazar Khan
+Leveraging PEFT Strategies for Improved Performance and Efficiency in minBERT,"Mateo Quiros Bloch, Lara Seyahi, Susan Ahmed"
+Mastering minBERT: A True Balancing Act,"Emma Escandon, Alejandro Rivas, Daniela Uribe"
+Minh-BERT,Taran Kota

@@ -1,0 +1,161 @@
+Project name,Authors
+AmzBERT: Enhanced Multi-Label Sentiment Classification for E-commerce Product Reviews,Zack Seifert
+Weakly Supervised Automated Language Model Red-Teaming to Identify Likely Toxic Prompts,Houjun Liu
+Patent Classification Using Large Language Models,Luke Mizuhashi
+Text as outcome: Topic models within a causal inference framework,Juliette Coly
+Mining Molecular Logics through Human Language: Predicting and Decoding Transcription Factor Logics on Gene Expression through LLM and transformer,Gyu (Gyuhyeon) Kim
+From Infant to Toddler to Preschooler: Analyzing Language Acquisition in Language Models,Yash Shah
+Using Iterative Back-Translation to Improve Neural Poetry Translation,Andrew Chen
+Interpreting parking signs with lightweight large language models (LLMs),Uche Ochuba
+Exploring Themes and Outliers in CFPB Consumer Complaints,Jonathan Hague
+Intelligent Interactive Large Language Model Planner: Responsive Personalized HomeRobot,"Angel Zhang, Gadi Mark Sznaier Camps"
+Classification of clinical syndromes from patient-reported symptoms on social media,Evan Maestri
+Transfer learning in audio-based emotion detection: surprising generalizability and limitations,Shunyu Yao
+ReaL Stories: RL for Adaptive AI Storytelling,"Aditya Sood, Aniket Mahajan, Ayaan Chand"
+Tailor-Made or Off-the-Rack? Comparing Domain-Specific and General-Domain Language Models on a Financial NLP Task,Irina Alexandra Marton
+Cross attention for Text and Image Multimodal data fusion,Dongyeong Kim
+Comparative Analysis of Foundation Models for Hospital Integration,"Suhana Bedi, Miguel Fuentes"
+Active learning in DPO through gradient portfolio optimization,"Josh Leib Kazdan, Ziang Song"
+GRAFT: Graph Retrieval Augmented Fine Tuning for Multi-Hop Query Summarization,"Sunny Yu, Natalia Kokoromyti, Sonya Shi Jin"
+"Diverse LLM Approaches in Essay Scoring: A Comparative Exploration of Many-Shot Prompting, LLM Jury Panels, and Model Fine-Tuning","Alexa Sparks, Matias Hoyl, Rizwaan Malik"
+Optimizing Large Language Models to Solve Crossword Puzzles,"Ishan Mehta, Andrew Lipschultz, Ohm Patel"
+KAN-based Distillation in Language Modeling,Nick Mecklenburg
+Handle With Care! A Mechanistic Case Study of DPO Out-of-Distribution Extrapolation,Ryan Park
+Punk or Funk: Understanding the Performance of RoBERTa on Music Genre Classification,"Andrew Bempong, Deveen Harischandra"
+Sparse Full-Rank MLPs for Increased Efficiency of Language Modeling,"Aaryan Singhal, Quinn McIntyre"
+How Important is the Truth?,"Rehaan Ahmad, Joseph Tan"
+Catch Me If You DAN: Outsmarting Prompt Injections and Jailbreak Schemes with Recollection,"Alice Guo, Grace Jin, Jenny Wei"
+Query based Multi-document Summarizer and Image Synthesizer,Geeta Jakkamsetti
+Finish Your Peas! Utilizing Multi-Label ImageClassification to Identify Food Items and Ingredients for Recipe Suggestions and Reducing Food Waste,"Arianna Damiani, Prashaant Ranganathan"
+Engagement-based response selection for open-domain dialogue,Marcelo PeÃ±a
+FlowState: Composing foundation models and retrieval for issue priority level prediction,"Alex Gilbert, Gustavs Zilgalvis"
+Beyond IID Constraints: A Novel Approach to Identity Preference Optimization,Amirhossein Afsharrad
+Intrinsic Systematicity Evaluation: Evaluating the intrinsic systematicity of LLMs,Ayush Chakravarthy
+Numerous Multi-Pivot and Chained Pivot NMT for Low-Resource Language Translation,"Cees Armstrong, Kevin Reso"
+Enhancing Language-Concordant Clinical Text Translation with Zero-shot NER,"Ivan Lopez, Min Woo Sun"
+Better Call Sheared-LLaMA-2.7B: Optimized Summarization for Legal Documents,"Varun Madan, Arunima Srivastav"
+"Adapting Listen, Attend, and Spell to Enhance Brain-Computer Interfaces for Speech Decoding","Dylan Iskandar, Brian Ni, Vedant Singh"
+Narrative Detection Across Nations in Online Social Media Discourse,"Sungbin Kim, Khaled Messai, Vikram Srinivasan"
+"The First Proteinbender: A Novel ""Structure-based Protein Search Engine""","Ethan Zhang, Saahil Sundaresan, Zane Chan"
+Investigating Language Model Cross-lingual Transfer for NLP Regression Tasks Through Contrastive Learning With LLM Augmentations,"Raghav Ganesh, Raj Palleti"
+Chinese Poem Generator with Prefix Control,Yitong Lu
+DeviceBERT: Applied Transfer Learning With Targeted Annotations and Vocabulary Enrichment to Identify Medical Device and Component Terminology in FDA Recall Summaries,Miriam Farrington
+L-LLM: Large Language LEGO Models,"Alex Wang, Calvin Laughlin"
+Adapting BERT to non-Western Dialects: A Case Study on Nigerian Pidgin English Slurs,"Sathvik Nori, Adrian Adegbesan"
+Words and Wins: Enhancing Game Play with LLM Fine-Tuning by RL,"Xuanzi Chen, Zhengjia Huang"
+From Preferences to Principles: Automated Principle Generation for Language Models,"William Fang, Vikram Sivashankar"
+From Lies to Insights: Expanding and Understanding the LIAR Dataset,Felix Zhan
+HieroLM: Egyptian Hieroglyph Recovery with Next Word Prediction Language Model,"Xuheng Cai, Erica Zhang"
+Analyzing Sophia's Gradient Distributions in Language Model Pretraining,Raghav Kapoor
+Investigating Improvement to English-Tigrinya Translation via Transfer Learning Over Varying Languages,"Abel Dagne, Sheden Andemicael"
+Quality or Quantity? Comparing Domain-Adaptive Pre-training Approaches for Language Models with Mathematical Understanding,"Christine Ye, Alexandre Acra"
+Knowledge-Enhanced Language Models: A Comparative Study of RAG and Embedding Methods,"Adarsh Ambati, Nikash Chhadia"
+Optimizing Language Models for Safe Online Discourse: Developing Metrics and Models for Detoxifying Internet Conversations,"Steven Li, Steven Le"
+Making Silicon Sing,"Kadija Ismail, Imen Kedir"
+Active Learning for Efficient NLP Training,"Daniel Lee, Thomas Yim, Ibrahim Dharhan"
+Character Understanding in Literary Texts: Leveraging TinyLlama for Advanced Character Analysis in the LiSCU Dataset,Katherine Wong
+arXivBot: A Large Language Model Chatbot That Has High Factuality and Coverage by Few-Shot Grounding on arXiv,Xiaofeng Tang
+SENTINEL: A Heterogeneous Ensemble Framework for Detecting AI-Generated Text in the Era of Advanced Language Models,"Natalie Cao, Haocheng Fan"
+Predicting Stock Market Trends from News Articles And Price Trends using Transformers,"Kasra Naftchi-Ardebili, Karanpartap Singh"
+Merging âPersonasâ in Multi-Agent Systems of Language Models,"Andy Dai, Sriya Mantena"
+Critical Learning Periods for Second Language Acquisition in Neural Language Models,"Daniel Wurgaft, Jerome Han"
+Enhancing Practice Problem Retrieval with Deep Learning: A Rewriter-Retriever-Reranker Approach,"Charles Joyner, Ronny Junkins, Mack Smith"
+Can LLMs Survive in the Desert? Evaluating Collaborative Capabilities of Generative Agents on a Classic Team-Building Problem,"Yash Narayan, Daniel Shen, Ethan Zhang"
+SceneGrounder: Natural Language Scene Descriptions and Retrieval Augmented Generation for 3D Visual Tasks,"Huy Nguyen, James Brown"
+RubricEval: A Scalable Human-LLM Evaluation Framework for Open-Ended Tasks,Vineel Bhat
+Medical Named Entity Recognition and Relation Extraction from Clinical Notes,"Ameya Jadhav, Sreyana Kukadia"
+The Invisible Author: Mapping AI Penetration in News Journalism,"Jun Wang, Andrew Zhang"
+Developing a GPT-Based Autonomous Agent With Novel Workflow Execution Capabilities,"Kenny Lam, Vaishnav Garodia"
+Improving speech brain-computer interface with conversation context,"Brian Lee, Allison Tee"
+Negotiation Copilot: Exploring Ways to Build an AI Negotiation Assistant,"Winson Cheng, Abhinav Agarwal"
+AuRA (Automated Retrieval-Augmented Generation (RAG) System Development),Robby Manihani
+KoWhisper: Efficient Bilingual Speech-to-Text for Edge Deployment,"Jason Park, Harshit Gupta"
+Enhancing AI Creativity: A Multi-Agent Approach to Flash Fiction Generation with Small Open-Source Models,"Alex Wang, Berwyn Berwyn, Jermaine Zhao"
+UltimateMedLLM-Llama3-8B: Fine-tuning Llama 3 for Medical Question-Answering,"Jayson Meribe, Sean Zhang"
+PROCEED: Performance Routing Optimization for Cost-Efficient and Effective Deployment,"Lichu AcuÃ±a, Odin Farkas"
+Improving Spanish-Mapudungun Translation through Transfer Learning,Eban Ebssa
+EDU-RAG: A RAG Benchmark with Web-enhanced Content in Education Domain. Will RAG Help AI Tutor?,"Xinxi Chen, Jingxu Gao"
+Mapping the Mind: Knowledge-Graph Augmented Retrieval,Nicholas Vo
+Learning Semantic Complexities of NYT Connections,"Emily Zhang, Yanan Jiang, Peixuan Ye"
+SuLaLoM: Structured Classification of Tabular Data with Large Language Models,Su Kara
+AdaVid: Adaptive Video-Language Pretraining,Chaitanya Patel
+PragMaBERT: Analyzing Pragmatic Markers in Political Speech,"Matt Wise, Houda Nait El Barj"
+Robotic AssistEMT: An EMT Chatbot,"Aanika Atluri, Sarah Barragan, Anusheh Chaudry"
+Knowledge Distillation of Deep Language Models for Electrification Information Extraction from Building Permits,Tony Liu
+Shared Representation of Language in Brocaâs Area and Large Language Models,"Alisa Levin, Benyamin Meschede-Krasa, Yun Hwang"
+ModelFusion,Joong Kun Lee
+PragMaBERT: Analyzing Pragmatic Markers in Political Speech,"Matt Wise, Houda Nait El Barj"
+Comparative study between addition of one MAMBA block to Wav2Vec2 Pretrained model and Vanilla Pretrained model,Puchiss Panitpotjaman
+Multi-Task Alignment Using Steering Vectors,"Charles Li, Nahum Maru"
+Project Oracle: Autoregressive Future Event Prediction with Sequential Modeling and Transformers,"Brian Wu, Katherine Wang, Ismail Mardin"
+DelT5: Dynamic Token Deletion for Efficient Byte-level Language Models,Julie Kallini
+Formally Verify Generated Code,Livia Sun
+Fine-tuning Digital Agents with BAGEL Trajectories,"Alfred Yu, An Doan"
+Optimal Brain Projection: Neural Network Compression using Mixtures of Subspaces,Daniel Garcia
+Mistriply: Encoding Human Algorithmic Processes into LMs for Teaching and Computation,"Harviel Kyle Arcilla, Colette Do"
+Item Difficulty Modeling for a Sentence Reading Efficiency Task with Language Model Simulations,Wanjing Anya Ma
+Improving Speech-to-Text Brain-Computer Interface Performance with Neural Decoders and Large Language Models,"Laywood Fayne, Mohammad Rehan Ghori"
+Advancing Automated Content Moderation using Large Language Models,"Harshit Gupta, Sidhant Bansal, Sneha Jayaganthan"
+Leveraging Language Models for Multiclass Classification of Unfair Clauses in Terms of Service,"Shaurnav (Joy) Ghosh, Shrish Janarthanan"
+"Talk To Me, Your Virtual AI Therapist: Advancing AI-Driven Psychotherapeutic Engagement with Sentiment Analysis","George Birikorang, Nathan Paek, Zoe Lynch"
+The impact of LLM pruning for fine-tuning,"Varun Shanker, Sarah Chung"
+Curriculum Learning with TinyStories,Michail Christiaan Melonas
+Beyond Single Commands: Evaluating LLMs on Multiple Instruction Sequences,"Sagnik Bhattacharya, Vaastav Arora, Prateek Varshney"
+FinRAG: A Retrieval-Based Financial Analyst,"Krrish Chawla, Allen Naliath"
+ClimateGrantLLM: Benchmarking grant recommendation engines for natural language descriptions of climate resilient infrastructure capital projects,"Bhumikorn Kongtaveelert, Auddithio Nag, Peter Li"
+JEDI: Justifiable End-dialogue Driven Interaction for NPC Entities in Role-Playing Games,"Willy Chan, Omar Abul-Hassan, Sokserey Sun"
+Efficient Translation of Natural Language to First-Order Logic Using Step-by-Step Distillation,"Aliyan Ishfaq, Shreyas Sharma"
+Enhancing Partisanship Prediction in Congressional Speeches,"Amelia Leon, JB Jong Beom Lim, Sherry Yang"
+Needle in a Haystack: Probing Transformer Capabilities to Recognize Non-Star-Free Languages,"Richard Gu, Sambhav Gupta, Andy Tang"
+Forticode: A Benchmark for Evaluating the Robustness of Code Generation Models Against Adversarial Syntax Preserving Mutations,"Amrit Baveja, Anant Singhal"
+Disarming Sleeper Agents: A Novel Approach Using Direct Preference Optimization,"Katherine Worden, Jeong Shin"
+Now You See Me: Vision-enhanced BERT for obfuscated text abuse detection,Dylan Zhou
+The Potential of Large Language Models in Assisting Data Augmentation for East Asian Digital Humanities,Fengyi Lin
+Expanding Horizons in RAG: Exploring and Extending the Limits of RAPTOR,Alex Laitenberger
+The Shades of Meaning: Investigating LLMsâ Cross-lingual Representation of Grounded Structures,"Pinlin [Calvin] Xu, Garbo Chung"
+FolioLLM: Constructing portfolio of ETFs using Large Language Models,"Andrey Popov, Oleg Roshka"
+Integrating Domain Knowledge for Financial QA: A Multi-Retriever RAG Approach with LLMs,"Yukun Zhang, Stefan Elbl Droguett, Samyak Jain"
+Integrating Extra Linguistic Meaning into the BERT Framework,"Riley Carlson, Bradley Moon, Ishaan Singh"
+A Contextual Approach Towards Financial Sentiment Analysis,Emma Sun
+Enhancing Construction Project Management through a Cross-Modal Retrieval System,Jayadev Rajan
+Large language models for sustainable food design,Anna Thomas
+News to Numbers: NLP Stock Return Predictions,"Shree Reddy, Henrique B. N. Monteiro, Lucas Werneck"
+Apollo: A Large Multi-Modal Model Capable of Sampling Videos at 8fps,Orr Zohar
+Analyzing the Effectiveness of Morphologically Motivated Tokenization on Machine Translation for Low-Resource Languages,"Abhishek Vangipuram, Emiyare Ikwut-Ukwa, William Huang"
+Hivemind: An Architecture to Amalgamate Fine-Tuned LLMs,"Matthew Mattei, Matt Hsu, Ramya Iyer"
+Leveraging Long Context for Customer Support,Ian Lim
+Course Recommendation Chatbot,"Naama Bejerano, Emma Troast"
+From Headlines to Bottom Lines: Leveraging Earning Releases and News Headlines to Predict Stock Price Movement,"Ananya Krishnan, Jinny Chung, Charles Shaviro"
+Leverage Augmented Large Language Models to build Hyper Personalized Recommendation Systems,Viveak Ravichandiran
+Retrieval Augmented Verilog Generation,Joseph Rejive
+Parsing FDA label data with LLMs,Jake Silberg
+FAST: Finetuning Agents with Synthetic Trajectories,Flor Lozano-Byrne
+Diving Under the Hood: Exploring LLM Conceptual Understanding Through Latent Embeddings,Kelvin Nguyen
+Korean-English Neural Machine Translation with Language Style Control,"Jiwon Jeong, Hyejin Lee, Youjin Song"
+"Using Segmented Novel Views, Depth, and BERT Embeddings for Training in Robot Learning",Matt Strong
+"How Much Attention is ""All You Need""?","Ignacio Fernandez, Duru Irmak Unsal"
+A case for pre-training in Compositional Generalization tasks,"Ahmad Jabbar, Rhea Kapur"
+RubricEval - Scalable Human-LLM Evaluation of LLMs on Open-Ended Tasks Using Human-Written Rubrics,Stella Zhang
+MuRST: Multilingual Recursive Summarization Trees,"Tarini Mutreja, Saron Samuel, Humishka Zope"
+Simulating the Court: Legal Judgment Prediction through Relational Learning,Ein Jun
+An Exploration of Transferring Domain Expertise,Jonathan Paul Hsu
+Posetta: Language-Guided Protein Design,"Haotian Du, Jingjia Liu, Tianyu Lu"
+Self Reward Scaling,Arjun Chandran
+Optimizing Human-Agent Interaction: Evaluating Diverse Strategies for Human Input in the OptiMUS LLM Agent System,"Idil Defne Ãekin, Isaiah Hall"
+A Neuro-Symbolic Integration of LLMs and SMT-solvers for Trustworthy Logical Reasoning,Harun Khan
+"Experiments on Multi-Task Learning Framework over BERT for Performing Sentiment Analysis, Paraphrase Detection, and Semantic Textual Similarity Simultaneously",Florence Chen
+arXivBot,Amr Sherif
+Robust DPO with Convex-NN on Single GPU,Miria Feng
+DNACLIP: Contrastive representation learning for joint embedding of DNA and natural language,Brian Kang
+Taming Guidelines in the Wild,Anuj Iravane
+Long Horizon Robotic Manipulation through Closed-Loop Mark-Based Visual Prompting,David Ihim
+Context-Aware Gesture Interpretation in Augmented and Virtual Reality,Trishia El Chemaly
+Reading Between the Minds: Context-Aware Brain-to-Text Decoding,"Ellie Tanimura, Sarosh Khan"
+Clinical Text Summarization with LLM-Based Evaluation,"Daphne Barretto, Matthew Jin, Bora Oztekin"
+Beauty and a Beat: Comparing and Combining the Utility of Lyrical and Acoustic Features to Identify Genuine Playlists,Naomi Eigbe
+Tracing the Development of Word Meaning During Training,"Shenghua Liu, Yiheng Ye"
+MoonSpeech - Training a tiny multi-modal LLM,Krishna Dusad
+Integrating Clinical Note Synthesis with Synthetic EHR Data for Enhanced Healthcare Analysis,"Jessica Yang, Riya Karumanchi"
+Automated Extraction and Detection of Selective Reporting in Publications of Landmark Cancer Trials,"Maximilian Schuessler, Amanda Rodriguez, Selina Pi"
+An LLM-Based Recommender System for Scientific Papers,"Vijay Josephs, Aaron Reed"
+Actions versus Objects: Understanding Gendering of Jobs through Language,Echo Yan Zhou

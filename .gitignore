@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Project specific
+dataset_creation/*
+LLM_dataset_analysis/direction_*.md
+LLM_dataset_analysis/model_case_studies.md
+LLM_dataset_analysis/speaking_notes.md
+LLM_dataset_analysis/directions.md
+LLM_dataset_analysis/LLM Pretraining Dataset Analysis.md

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARIA Table Test Cases</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #333;
+        }
+
+        /* Basic ARIA table styling */
+        [role="table"] {
+            display: table;
+            border-collapse: collapse;
+            margin: 20px 0;
+            width: 100%;
+            border: 1px solid #ddd;
+        }
+
+        [role="rowgroup"] {
+            display: table-row-group;
+        }
+
+        [role="row"] {
+            display: table-row;
+        }
+
+        [role="columnheader"],
+        [role="rowheader"],
+        [role="cell"],
+        [role="gridcell"] {
+            display: table-cell;
+            padding: 12px;
+            border: 1px solid #ddd;
+        }
+
+        [role="columnheader"],
+        [role="rowheader"] {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+
+        /* Grid styling */
+        [role="grid"] {
+            display: grid;
+            gap: 1px;
+            background-color: #ddd;
+            border: 1px solid #ddd;
+            margin: 20px 0;
+        }
+
+        .grid-3-cols {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .grid-4-cols {
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        [role="grid"] [role="gridcell"],
+        [role="grid"] [role="columnheader"] {
+            background-color: white;
+            padding: 12px;
+        }
+
+        [role="grid"] [role="columnheader"] {
+            background-color: #f0f0f0;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ARIA Table Test Cases</h1>
+    <p>This page contains various ARIA table structures for testing the ARIA table extractor.</p>
+
+    <!-- Test Case 1: Basic ARIA Table with Column Headers -->
+    <h2>Test Case 1: Basic ARIA Table</h2>
+    <div role="table" aria-label="Employee Information">
+        <div role="row">
+            <div role="columnheader">Name</div>
+            <div role="columnheader">Position</div>
+            <div role="columnheader">Salary</div>
+        </div>
+        <div role="row">
+            <div role="cell">Alice Johnson</div>
+            <div role="cell">Software Engineer</div>
+            <div role="cell">$95,000</div>
+        </div>
+        <div role="row">
+            <div role="cell">Bob Smith</div>
+            <div role="cell">Product Manager</div>
+            <div role="cell">$110,000</div>
+        </div>
+        <div role="row">
+            <div role="cell">Carol Williams</div>
+            <div role="cell">UX Designer</div>
+            <div role="cell">$85,000</div>
+        </div>
+    </div>
+
+    <!-- Test Case 2: Table with Rowgroups (thead, tbody) -->
+    <h2>Test Case 2: Table with Rowgroups</h2>
+    <div role="table" aria-label="Quarterly Sales">
+        <div role="rowgroup" class="thead">
+            <div role="row">
+                <div role="columnheader">Quarter</div>
+                <div role="columnheader">Revenue</div>
+                <div role="columnheader">Expenses</div>
+                <div role="columnheader">Profit</div>
+            </div>
+        </div>
+        <div role="rowgroup" class="tbody">
+            <div role="row">
+                <div role="cell">Q1 2024</div>
+                <div role="cell">$1,200,000</div>
+                <div role="cell">$800,000</div>
+                <div role="cell">$400,000</div>
+            </div>
+            <div role="row">
+                <div role="cell">Q2 2024</div>
+                <div role="cell">$1,500,000</div>
+                <div role="cell">$900,000</div>
+                <div role="cell">$600,000</div>
+            </div>
+            <div role="row">
+                <div role="cell">Q3 2024</div>
+                <div role="cell">$1,350,000</div>
+                <div role="cell">$850,000</div>
+                <div role="cell">$500,000</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Test Case 3: Table with Colspan -->
+    <h2>Test Case 3: Table with Colspan</h2>
+    <div role="table" aria-label="Product Comparison">
+        <div role="row">
+            <div role="columnheader">Feature</div>
+            <div role="columnheader" aria-colspan="2">Basic Plan</div>
+            <div role="columnheader" aria-colspan="2">Premium Plan</div>
+        </div>
+        <div role="row">
+            <div role="cell">Storage</div>
+            <div role="cell">10 GB</div>
+            <div role="cell">$5/mo</div>
+            <div role="cell">100 GB</div>
+            <div role="cell">$15/mo</div>
+        </div>
+        <div role="row">
+            <div role="cell">Users</div>
+            <div role="cell">5</div>
+            <div role="cell">$5/mo</div>
+            <div role="cell">Unlimited</div>
+            <div role="cell">$15/mo</div>
+        </div>
+    </div>
+
+    <!-- Test Case 4: Grid with aria-colindex -->
+    <h2>Test Case 4: Grid with Explicit Column Indices</h2>
+    <div role="grid" aria-label="Task List" class="grid-4-cols">
+        <div role="columnheader" aria-colindex="1">ID</div>
+        <div role="columnheader" aria-colindex="2">Task</div>
+        <div role="columnheader" aria-colindex="3">Status</div>
+        <div role="columnheader" aria-colindex="4">Priority</div>
+
+        <div role="gridcell" aria-colindex="1">1</div>
+        <div role="gridcell" aria-colindex="2">Implement login</div>
+        <div role="gridcell" aria-colindex="3">In Progress</div>
+        <div role="gridcell" aria-colindex="4">High</div>
+
+        <div role="gridcell" aria-colindex="1">2</div>
+        <div role="gridcell" aria-colindex="2">Design dashboard</div>
+        <div role="gridcell" aria-colindex="3">Completed</div>
+        <div role="gridcell" aria-colindex="4">Medium</div>
+
+        <div role="gridcell" aria-colindex="1">3</div>
+        <div role="gridcell" aria-colindex="2">Write documentation</div>
+        <div role="gridcell" aria-colindex="3">Not Started</div>
+        <div role="gridcell" aria-colindex="4">Low</div>
+    </div>
+
+    <!-- Test Case 5: Table with Row Headers -->
+    <h2>Test Case 5: Table with Row Headers</h2>
+    <div role="table" aria-label="Monthly Metrics">
+        <div role="row">
+            <div role="columnheader">Month</div>
+            <div role="columnheader">Visitors</div>
+            <div role="columnheader">Conversions</div>
+        </div>
+        <div role="row">
+            <div role="rowheader">January</div>
+            <div role="cell">12,500</div>
+            <div role="cell">450</div>
+        </div>
+        <div role="row">
+            <div role="rowheader">February</div>
+            <div role="cell">15,200</div>
+            <div role="cell">520</div>
+        </div>
+        <div role="row">
+            <div role="rowheader">March</div>
+            <div role="cell">18,900</div>
+            <div role="cell">680</div>
+        </div>
+    </div>
+
+    <!-- Test Case 6: Simple Grid -->
+    <h2>Test Case 6: Simple Grid</h2>
+    <div role="grid" aria-label="Color Palette" class="grid-3-cols">
+        <div role="columnheader">Color</div>
+        <div role="columnheader">Hex</div>
+        <div role="columnheader">RGB</div>
+
+        <div role="gridcell">Red</div>
+        <div role="gridcell">#FF0000</div>
+        <div role="gridcell">255, 0, 0</div>
+
+        <div role="gridcell">Green</div>
+        <div role="gridcell">#00FF00</div>
+        <div role="gridcell">0, 255, 0</div>
+
+        <div role="gridcell">Blue</div>
+        <div role="gridcell">#0000FF</div>
+        <div role="gridcell">0, 0, 255</div>
+    </div>
+
+    <!-- Test Case 7: Table with aria-label on cells -->
+    <h2>Test Case 7: Table with ARIA Labels</h2>
+    <div role="table" aria-label="Icon Buttons">
+        <div role="row">
+            <div role="columnheader">Action</div>
+            <div role="columnheader">Icon</div>
+            <div role="columnheader">Shortcut</div>
+        </div>
+        <div role="row">
+            <div role="cell">Save</div>
+            <div role="cell" aria-label="Save icon">💾</div>
+            <div role="cell">Ctrl+S</div>
+        </div>
+        <div role="row">
+            <div role="cell">Delete</div>
+            <div role="cell" aria-label="Delete icon">🗑️</div>
+            <div role="cell">Del</div>
+        </div>
+        <div role="row">
+            <div role="cell">Edit</div>
+            <div role="cell" aria-label="Edit icon">✏️</div>
+            <div role="cell">Ctrl+E</div>
+        </div>
+    </div>
+
+    <!-- Test Case 8: Empty cells -->
+    <h2>Test Case 8: Table with Empty Cells</h2>
+    <div role="table" aria-label="Availability Schedule">
+        <div role="row">
+            <div role="columnheader">Day</div>
+            <div role="columnheader">Morning</div>
+            <div role="columnheader">Afternoon</div>
+            <div role="columnheader">Evening</div>
+        </div>
+        <div role="row">
+            <div role="cell">Monday</div>
+            <div role="cell">Available</div>
+            <div role="cell"></div>
+            <div role="cell">Available</div>
+        </div>
+        <div role="row">
+            <div role="cell">Tuesday</div>
+            <div role="cell"></div>
+            <div role="cell">Available</div>
+            <div role="cell"></div>
+        </div>
+        <div role="row">
+            <div role="cell">Wednesday</div>
+            <div role="cell">Available</div>
+            <div role="cell">Available</div>
+            <div role="cell">Available</div>
+        </div>
+    </div>
+
+    <!-- Test Case 9: Invalid - No rows (should be rejected) -->
+    <h2>Test Case 9: Invalid Table (No Rows)</h2>
+    <div role="table" aria-label="Empty Table">
+        <!-- This table has no rows and should be rejected -->
+    </div>
+
+    <!-- Test Case 10: Invalid - Only one row (should be rejected) -->
+    <h2>Test Case 10: Invalid Table (Single Row)</h2>
+    <div role="table" aria-label="Single Row Table">
+        <div role="row">
+            <div role="cell">Only one row</div>
+            <div role="cell">Not enough data</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

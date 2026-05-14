@@ -33,6 +33,8 @@ python method_2.py
 *This will initialize a Chrome browser (via Selenium), extract the ARIA-based tables, and print the results to the terminal.*
 
 ### 3. Quick Start (Importing)
+
+*Note: The code below should be put in a new Python file within this directory.*
 You can use the extractor in your own projects:
 
 ```python

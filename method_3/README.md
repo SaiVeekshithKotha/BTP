@@ -33,6 +33,8 @@ python method_3.py
 *This will execute the full 8-phase pipeline and print the extracted tables and their metadata to the terminal.*
 
 ### 3. Quick Start (Importing)
+
+*Note: The code below should be put in a new Python file within this directory.*
 ```python
 from method_3 import extract_tables
 

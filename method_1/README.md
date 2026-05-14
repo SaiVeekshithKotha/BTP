@@ -102,6 +102,8 @@ python basic_table_parser.py
 
 ### 2. Import as a Module (Quick Start)
 
+*Note: The code below should be put in a new Python file within this directory.*
+
 ```python
 from basic_table_parser import parse_tables
 
